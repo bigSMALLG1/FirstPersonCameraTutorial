@@ -16,6 +16,7 @@ A tutorial on how to program first person movement in Unity 3D using C#. This tu
 Cursor.visible is a boolean so setting this to false will render the cursor invisible.
 Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the centre of the screen.
 
-7. Next create the void update method again.
+7. Next create the void update method again. We will be programming the physical mouse input here.
+8. 
 
 
