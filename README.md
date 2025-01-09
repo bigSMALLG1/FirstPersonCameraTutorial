@@ -1,5 +1,5 @@
-# FirstPersonCameraTutorial
-A tutorial on how to program a first person camera in Unity 3D using C#. 
+# FirstPersonMovementTutorial
+A tutorial on how to program first person movement in Unity 3D using C#. 
 
 1.  Create a Unity 3D project.
 2.  Before we start to program actual movement, the first step in this tutorial is to be able to move camera view in first person by moving the mouse.
