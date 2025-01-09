@@ -1,5 +1,5 @@
-# FirstPersonMovementTutorial
-A tutorial on how to program first person movement in Unity 3D using C#. This tutorial also covers a jumping mechanic.
+# FirstPersonCameraTutorial
+A tutorial on how to program a first person camera in Unity 3D using C#. 
 
 1.  Create a Unity 3D project.
 2.  Before we start to program actual movement, the first step in this tutorial is to be able to move camera view in first person by moving the mouse.
@@ -59,7 +59,7 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 ![image](https://github.com/user-attachments/assets/17782260-ffa9-4c31-ba49-a2afc0153288)
 
-19. 
+ 
 
 
 
@@ -67,7 +67,7 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 
 
-21. 
+ 
 
 
     
