@@ -17,7 +17,23 @@ Cursor.visible is a boolean so setting this to false will render the cursor invi
 Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the centre of the screen.
 
 7. Next create the void update method again. We will be programming the physical mouse input here. To do this we will need to get our mouse's input in the x and y directions and multiply each by their corresponding x and y sensitivity variables that we set declared earlier. We will also multiply them by Time.deltaTime so that your computer performance won't matter.
-8. 
+![image](https://github.com/user-attachments/assets/abce57ad-8544-4dfb-92be-2609d1f170e4)
+
+8. Below this, we will want to add the y rotation to the x input and subtract the x rotation from the y input.
+![image](https://github.com/user-attachments/assets/83e3763c-40c8-4159-b709-7344df08b9ff)
+
+9. After this, we want to make sure that the camera stops moving once you have looked up and down 90 degrees. So we will want to clamp the x rotation between -90 degrees and 90 degrees.
+  ![image](https://github.com/user-attachments/assets/e7a010c2-e950-43f2-964f-f7a39dd9cf4a)
+
+10. To apply this, we will use Quaternion.Euler. Quaternions are used to represent rotations in unity and euler returns a rotation that in the z, x and y axis. So a Quaternion.Euler represents the rotation of a game object in 3D. We will want to set a transform.rotation to this, as this is the transform attached to the game object allowing us to move our players camera in correspondence to the mouse. We will also want to do the same for the orientation so our actual gameobject will turn in accordance to the camera.
+11. ![image](https://github.com/user-attachments/assets/61f08f3d-a0c8-4297-bfc2-12c48f0ce798)
+
+12.   
+13. 
+
+
+    
+
 
 
 
