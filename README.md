@@ -47,14 +47,27 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 ![image](https://github.com/user-attachments/assets/3c7d985c-c1d9-4dc7-996a-29a2536e9953)
 
-15.
+15. Make sure that you drag and drop your orientation gameobject from the hierarchy in to the orientation box on the script in the inspector.
+ 
+![image](https://github.com/user-attachments/assets/94c618ba-2812-48d9-9a5c-6d9c45e8c966)
+
+16. Lastly, we need to create another script that will be attached to our Camera gameobject, so that the camera moves position in accordance with the players position once movement has been programmed.
+
+17. To do this, create another MonoBehaviour script called cameraPosition. Delete the start method but leave the update method.
+
+18. Before the update method, set a transform variable called cameraPosition. In the update method set the transform.position to the position of the cameraPosition.
+
+![image](https://github.com/user-attachments/assets/17782260-ffa9-4c31-ba49-a2afc0153288)
+
+19. 
+
 
 
  
 
 
 
-17. 
+21. 
 
 
     
