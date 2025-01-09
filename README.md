@@ -33,7 +33,13 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 11. Go back in to Unity and create an empty game object called "Camera" and add a camera to this empty game object in the hierarchy and call the camera "PlayerCamera". We are doing this seperate to the player game object because attaching a camera to an object with a rigidbody component can cause issues.
 
-12. 
+  ![image](https://github.com/user-attachments/assets/9ea0caa6-a52a-4c1c-ae38-29af79838b2d)
+
+12. Create an empty game object called Player and add the current player (capsule) to the empty Player game object in the hierarchy. Add to more empty game objects to the Player, one called "Orientation" and one called "CameraPosition".
+
+
+
+14. 
 
 
     
