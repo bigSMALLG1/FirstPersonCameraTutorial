@@ -25,21 +25,36 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 9. After this, we want to make sure that the camera stops moving once you have looked up and down 90 degrees. So we will want to clamp the x rotation between -90 degrees and 90 degrees.
  
-  ![image](https://github.com/user-attachments/assets/e7a010c2-e950-43f2-964f-f7a39dd9cf4a)
+![image](https://github.com/user-attachments/assets/e7a010c2-e950-43f2-964f-f7a39dd9cf4a)
 
 10. To apply this, we will use Quaternion.Euler. Quaternions are used to represent rotations in unity and euler returns a rotation that in the z, x and y axis. So a Quaternion.Euler represents the rotation of a game object in 3D. We will want to set a transform.rotation to this, as this is the transform attached to the game object allowing us to move our players camera in correspondence to the mouse. We will also want to do the same for the orientation so our actual gameobject will turn in accordance to the camera.
  
-  ![image](https://github.com/user-attachments/assets/61f08f3d-a0c8-4297-bfc2-12c48f0ce798)
+![image](https://github.com/user-attachments/assets/61f08f3d-a0c8-4297-bfc2-12c48f0ce798)
 
 11. Go back in to Unity and create an empty game object called "Camera" and add a camera to this empty game object in the hierarchy and call the camera "PlayerCamera". We are doing this seperate to the player game object because attaching a camera to an object with a rigidbody component can cause issues.
 
-  ![image](https://github.com/user-attachments/assets/9ea0caa6-a52a-4c1c-ae38-29af79838b2d)
+![image](https://github.com/user-attachments/assets/9ea0caa6-a52a-4c1c-ae38-29af79838b2d)
 
-12. Create an empty game object called Player and add the current player (capsule) to the empty Player game object in the hierarchy. Add to more empty game objects to the Player, one called "Orientation" and one called "CameraPosition".
+12. Create an empty game object called Player and add a capsule game object named "PlayerBody" to the empty Player game object in the hierarchy. Add to more empty game objects to the Player, one called "Orientation" and one called "CameraPosition".
+
+![image](https://github.com/user-attachments/assets/f5f32fea-1db0-4fa1-b911-0ebd877bf760)
+
+13. Add a rigidbody component to the Player and set interpolate to interpolate and collision detection to continous.
+ 
+![image](https://github.com/user-attachments/assets/8afe61f4-6a84-4e14-8d3f-b1863d7e2f34)
+
+14. Now we can assign our playerView script to our PlayerCamera and we can change the sensitivity values in the inspector at will. You can do this by dragging and dropping the script in to the bottom of the inspector of the game object.
+
+![image](https://github.com/user-attachments/assets/3c7d985c-c1d9-4dc7-996a-29a2536e9953)
+
+15.
+
+
+ 
 
 
 
-14. 
+17. 
 
 
     
