@@ -55,10 +55,11 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 17. To do this, create another MonoBehaviour script called cameraPosition. Delete the start method but leave the update method.
 
-18. Before the update method, set a transform variable called cameraPosition. In the update method set the transform.position to the position of the cameraPosition.
+18. Before the update method, set a transform variable called cameraPosition. In the update method set the transform.position to the position of the cameraPosition. Then drag the cameraPosition from the hierarchy in to the Camera Position box in the Move Camera script.
 
 ![image](https://github.com/user-attachments/assets/17782260-ffa9-4c31-ba49-a2afc0153288)
 
+19. Now that the camera is complete and configured properly, move the cameraPosition game object to the desired position on the player 
  
 
 
