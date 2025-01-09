@@ -31,8 +31,9 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
  
   ![image](https://github.com/user-attachments/assets/61f08f3d-a0c8-4297-bfc2-12c48f0ce798)
 
-13.   
-14. 
+11. Go back in to Unity and create an empty game object called "Camera" and add a camera to this empty game object in the hierarchy and call the camera "PlayerCamera". We are doing this seperate to the player game object because attaching a camera to an object with a rigidbody component can cause issues.
+
+12. 
 
 
     
