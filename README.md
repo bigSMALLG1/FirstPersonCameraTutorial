@@ -92,7 +92,14 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
  ![image](https://github.com/user-attachments/assets/6d2b3e74-0d5d-4626-9d9d-b166d1ccf7df)
  
- 24. 
+24. In the KeyInput method, we will be using Input.GetAxisRaw("Horizontal") and Input.GetAxisRaw("Vertical") to allow us to use the WASD keys for horizontal and vertical movement.
+  
+![image](https://github.com/user-attachments/assets/c661c836-e385-4e37-8532-7dc8c3818fb5)
+
+We are setting these as variables so we can use them variables when programming our movement direction.
+
+
+25.  
 
 
  
