@@ -98,8 +98,31 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 We are setting these as variables so we can use them variables when programming our movement direction.
 
+25. Once that is completed we can call this KeyInput method in the update method. You can do this by writing KeyInput(); in the update method.
 
-25.  
+26. After this we will create another method for the player movement: private void MovePlayer()
+ {
+ }
+
+ In here we will calculate our movement direction which we set as a Vector3 when declaring our variables. We will multiply our forward orientation which is along the blue axis in the world space, and multiply it by 
+ our vertical input which will allow us to move forwards and backwards using the W and S keys. We will then add that to our right orientation multiplied by our horizontal input which will allow us to use the A and 
+ D keys to move from left to right.
+
+ ![image](https://github.com/user-attachments/assets/460d74b5-4b0a-4160-a5dc-0ffbe8e0103c)
+
+ 27. Lastly, we can add force to the player by using rb.AddForce which adds a force to the rigidbody component on our player.
+
+ We use ForceMode.Force which adds a continous force to the rigid body
+
+ 28. Finally, create a FixedUpdate method where we will call our MovePlayer method as we are using rigidbody physics for movement which FixedUpdate handles better than Update.
+
+![image](https://github.com/user-attachments/assets/74486d2d-d861-4b86-8073-bf61b804c2dd)
+
+29. Drag and drop the script on to our player and assign the orientation box on the script in the inspector with our orientation game object and change the values to your desired speed.
+
+ 
+
+
 
 
  
