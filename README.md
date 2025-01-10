@@ -68,15 +68,6 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
 
 
  moveSpeed (to store the players movement speed)
- groundDrag (for more realistic physics when slowing down)
- jumpForce (how powerful the jump is)
- jumpCooldown (so that jumping can't be spammed)
- airMultiplier (so that movement is slowed down when airborne)
- readyToJump (boolean variable so we know if the player can jump or not if the jumpCooldown is 0)
- KeyCode jumpKey = KeyCode.Space (sets spacebar as jumpkey)
- playerHeight (needed for groundcheck)
- LayerMask whatIsGround (layer for where the ground is)
- grounded (boolean variable so we know if the player is grounded or not)
  Transform orientation (stores orientation of the player)
  horizontalInput and verticalInput (will be set to the WASD keys which will be used for movement.
  Vector3 moveDirection (direction in which the player will move)
