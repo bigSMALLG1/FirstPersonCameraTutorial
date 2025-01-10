@@ -82,6 +82,19 @@ Setting Cursor.lockState to CursorLockMode.locked will lock the cursor in the ce
  Vector3 moveDirection (direction in which the player will move)
  Rigidbody rb (rigidbody component)
 
+22. In the private void start method, we will first want to get our rigidbody component on the player and freeze rotation, otherwise our player will over because it is a capsule shape, this can be used on enemies  if they are capsules aswell.
+
+![image](https://github.com/user-attachments/assets/4a6668ba-472d-4133-8e48-98376fd2a581)
+
+23. We will be creating our own method where we will program our keyboard input. So create a method: private void KeyInput()
+ {
+ }
+
+ ![image](https://github.com/user-attachments/assets/6d2b3e74-0d5d-4626-9d9d-b166d1ccf7df)
+ 
+ 24. 
+
+
  
 
 
